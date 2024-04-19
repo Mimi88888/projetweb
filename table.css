@@ -1,0 +1,63 @@
+* {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.master, .doctorat{
+    table,th,td{
+        border: 5px solid;
+        padding: 15px;
+        text-align: cent;
+        padding-top: 12%;
+        
+      }
+      table {
+        width: 90%;
+        
+      }
+    }
+
+.doctorat h4{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.master h4{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.bac h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+form button {
+    background: #6e0d0d;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    color: white;
+  }
+
+  form button:hover {
+    background: #9e3939;
+  }
+
+  @media (max-width: 768px) {  
+    .footer-col form {
+      display: block;
+    }
+  
+    .footer-col form :where(input, button) {
+      width: 100%;
+    }
+  
+    .footer-col form button {
+      margin: 10px 0 0 0;
+    }
+  }

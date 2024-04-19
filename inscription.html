@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription à la Bourse</title>
+    <link rel="stylesheet" href="bourse.css">
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <form action="">
+    <h1>Inscription à la Bourse </h1><br>
+    <fieldset>
+        <legend>Identification</legend>
+        <label for="fname"> Nom* </label> <br>
+        <input type="text" id="fname" required> <br>
+        <label for="lname"> Prenom* </label> <br>
+        <input type="text" id="lname" required> <br>
+        <label for="fage"> Age* </label> <br>
+        <input type="text" id="fage" required> <br>
+        <label for="lNational"> Nationalité* </label> <br>
+        <input type="text" id="lNational" required> <br>
+        <label for="sexe">Sexe:</label><br> <br>
+        <select name="sexe" id="sexe"><br>
+        <option value="M">Homme</option> <br>
+        <option value="F">Femme</option><br></select>
+        <label for="CV">CV (PDF):</label>
+        <input type="file" id="CV" name="CV"><br><br>
+        <label for="myfile">Diplomes (PDF):</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <label for="image">Image Personnelle (Image):</label>
+        <input type="file" id="image" name="image"><br><br>
+        <label for="myfile">Certificats (PDF):</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="checkbox" id="Accepter les conditions" name="conditions" value="conditions">
+        <label for="Accepter les conditions"> Accepter les conditions</label><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+</body>
+</html>

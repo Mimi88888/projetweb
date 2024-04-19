@@ -1,0 +1,510 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  .top-header{
+    background:  #10182F;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(110, 108, 136);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+    
+    .headquote{
+        font-size: 15px;
+        color: white;
+        width: 80%;
+        font-family:Arial, Helvetica, sans-serif;
+       }
+  
+   .header-menu{
+    position: relative;
+    box-shadow: 0px 2px 5px 0px;
+    box-shadow: white;
+   }
+   .logo{
+    float: left;
+   }
+   ul.main-menu {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:80px; line-height:36px;
+    background: #10182F; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+ul.main-menu li {
+    border-right:1px solid rgb(110, 108, 136);/* you can change the border color matching to your background color */
+    float:left;
+    margin-top: 20px;
+}
+ul.main-menu a {
+    display:block;
+    padding:0 28px;
+    color:#ccece6;
+    text-decoration:none;
+}
+ul.main-menu a:hover,
+ul.main-menuli.current a {
+    background: rgb(110, 108, 136);
+}
+   .slider-width{
+    width: 100%;
+    height: auto;
+   }
+
+
+   .container1{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .slider{
+    position: relative;
+    width: 500%;
+    animation: animate 10s linear infinite;
+  }
+
+  .slide{
+    position: relative;
+    width: 20%;
+    float: left;
+    height: 100vh;
+  }
+
+  h5{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 6em;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .slide{
+    background-size: cover;
+  }
+
+  .slide:nth-child(1){
+    background: url(https://learnmore.scholarsapply.org/wp-content/uploads/2018/02/DUNKIN_2.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+  }
+
+  .slide:nth-child(2){
+    background: url(https://www.exeter.ac.uk/media/universityofexeter/funding/fundingrecruitmentsite/15231.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+  }
+
+  .slide:nth-child(3){
+    background: url(https://business-school.exeter.ac.uk/v8media/facultysites/ese/businessschool/images/study/scholarships/masters_scholarshipv2.jpg?s=1024x1024&w=is&k=20&c=J2EdFBVg3bBWOlrnJ3tijeNAhn5igj2z6j86yTuohMc=?w=940&h=650&auto=compress&cs=tinysrgb);
+  }
+
+  .slide:nth-child(4){
+    background: url(https://thumbs.dreamstime.com/z/student-alumni-waving-sunset-298443357.jpg?ct=jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  }
+
+  .slide:nth-child(5){
+    background: url(https://thumbs.dreamstime.com/z/college-alumni-take-selfies-meadow-298444349.jpg?ct=jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  }
+
+  @keyframes animate{
+    0%{
+      left: 0;
+    }
+    16%{
+      left: 0;
+    }
+    20%{
+      left: -100%;
+    }
+    36%{
+       left: -100%;
+    }
+    40%{
+      left: -200%;
+    }
+    56%{
+      left: -200%;
+    }
+    60%{
+      left: -300%;
+    }
+    76%{
+      left: -300%;
+    }
+    80%{
+      left: -400%;
+    }
+    96%{
+      left: -400%;
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+   .welcome{
+    text-align: center;
+    text-transform: uppercase;
+    color:  #10182F;
+   }
+   .discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    color:  #10182F;
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    
+   }
+   .margin-top-50{
+     margin-top: 50px;
+     border-radius: 20%;
+   }
+   .width-33{
+    width: 33%;
+    float:left;
+   }
+   .universities,.Avis, .Conditions{
+     margin-left: 10px;
+     margin-right: 10px;
+     background: #a8b2ce;
+     padding: 20px;
+     height: 350px;
+     margin-bottom: 30px;
+   }
+   
+   .heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #10182F;
+    color: white;
+   }
+   .head-title{
+   margin: 0px;
+   padding: 0px;
+   font-size: 16px;
+   font-weight: 600;
+   padding-bottom: 5px;
+   }
+   .universities-ul{
+     padding: 0px;
+     list-style: none;
+     line-height: 40px;
+   }
+   .boy, .girl {
+     width: 100%;
+     float: left;
+   }
+   .comment{
+     font-size: 16px;
+     color: #10182F;
+     padding-left: 10px;
+     margin-top: 6px;
+     
+   }
+   .width-40{
+     width: 20%;
+     height: 10%;
+     float: left;
+   }
+   .width-60{
+    width: 30%;
+    float: left;
+   }
+   .conditions-ul{
+    list-style: none;
+   }
+   .conditions-ul li{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+   }
+   .conditions-ul a{
+    text-decoration: none;
+    color:  #10182F;
+    font-weight: bold;
+   }
+
+    .uni{
+        ul {
+            list-style-type: square;
+            text-decoration-line: underline;
+          }
+    }
+    .head-galery{
+     font-size: 28px;
+     color:  #10182F;
+     margin-bottom: 5px;
+     background: white;
+     padding: 2px 0px;
+    }
+    .gallery-img{
+    height: 250px;
+    width:auto ;
+    }
+  .width-25{
+  width: 25%;
+  float: left;
+  }
+  .width-100 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    color: #10182F;
+    border-radius: 20%;
+  }
+  .width-10 h2{
+    color: #333;
+    font-family: tahoma;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 1.60;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+  }
+  .width-10{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 100%;
+  }
+  .width-10 h2 span {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+  .message {
+    background-color: yellow;
+    color: #10182F;
+    display: block;
+    font-weight: 1000;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.3rem;
+    top: 0rem;
+    left: 200px;
+    animation: openclose 5s ease-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    padding: 0;
+    font-family: tahoma;
+  }
+  
+    @keyframes openclose {
+      0% {
+        top: 0.2rem;
+        width: 0;
+      }
+      5% {
+        width: 0;
+      }
+      15% {
+        width: 230px;
+      }
+      30% {
+        top: 0.2rem;
+        width: 230px;
+      }
+      33% {
+        top: 0.2rem;
+        width: 0;
+      }
+      35% {
+        top: 0.2rem;
+        width: 0;
+      }
+      38% {
+        top: -4.5rem;
+        
+      }
+      48% {
+        top: -4.5rem;
+        width: 190px;
+      }
+      62% {
+        top: -4.5rem;
+        width: 190px;
+      }
+      66% {
+        top: -4.5rem;
+        width: 0;
+      }
+      71% {
+        top: -9rem;
+        width: 0;
+        
+      }
+      86% {
+        top: -9rem;
+        width: 285px;
+      }
+      95% {
+        top: -9rem;
+        width: 285px;
+      }
+      98% {
+        top: -9rem;
+        width: 0;
+        
+      }
+      100% {
+        top: 0;
+        width: 0;
+        
+      }
+    }
+    /*Footer*/
+.footer {
+ 
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  background: #10182F;
+  border-radius: 6px;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.footer-col .links li a:hover {
+  color: #fff;
+}
+
+.footer-col p {
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-col .icons i {
+  color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+  }
+
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .footer-col form {
+    display: block;
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+    
+    /* footer section end */
+  
